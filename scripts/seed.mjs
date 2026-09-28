@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {randomUUID} from 'node:crypto';
+import {transaction} from '../lib/db.js';
+import {passwordHash} from '../lib/auth.js';
+export async function seed(email,password){if(!email||!password||password.length<12)throw new Error('ADMIN_EMAIL and ADMIN_PASSWORD (at least 12 characters) are required');const hash=await passwordHash(password);const fsData=JSON.parse(await fs.readFile(new URL('../data/frameworks.json',import.meta.url),'utf8'));await transaction(async db=>{await db.query('INSERT INTO users(id,email,name,password_hash,is_admin) VALUES($1,$2,$3,$4,true) ON CONFLICT(email) DO NOTHING',[randomUUID(),email.toLowerCase(),'Platform administrator',hash]);const admin=(await db.query('SELECT id FROM users WHERE email=$1',[email.toLowerCase()])).rows[0];for(const f of fsData){await db.query('INSERT INTO modules(id,title) VALUES($1,$2) ON CONFLICT DO NOTHING',[f.module_id,f.definition.title]);await db.query('INSERT INTO frameworks(id,module_id,version,status,definition,approved_by,approved_at) VALUES($1,$2,$3,$4,$5,$6,$7) ON CONFLICT DO NOTHING',[f.id,f.module_id,f.version,f.status,JSON.stringify(f.definition),f.status==='Approved'?admin.id:null,f.status==='Approved'?new Date():null]);}});}
+if(process.argv[1]===fileURLToPath(import.meta.url)){await seed(process.env.ADMIN_EMAIL,process.env.ADMIN_PASSWORD);console.log('Administrator and versioned frameworks seeded. Existing passwords unchanged.');process.exit(0);}

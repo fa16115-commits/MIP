@@ -1,0 +1,7 @@
+{
+  "name":"maturity-intelligence-platform","version":"0.1.0","private":true,"type":"module",
+  "engines":{"node":">=22"},
+  "scripts":{"dev":"node scripts/dev.mjs","test":"node --test --test-concurrency=1 test/*.test.mjs","check":"node scripts/check.mjs","migrate":"node scripts/migrate.mjs","seed":"node scripts/seed.mjs","build":"npm run check"},
+  "dependencies":{"pg":"^8.16.3","decimal.js":"^10.6.0","zod":"^4.1.5","@vercel/blob":"^2.3.0","pdfkit":"^0.17.2"},
+  "devDependencies":{"@electric-sql/pglite":"^0.3.10","@axe-core/playwright":"^4.10.2","playwright":"^1.55.0"}
+}

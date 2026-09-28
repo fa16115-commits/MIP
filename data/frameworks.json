@@ -1,0 +1,1751 @@
+[
+  {
+    "id": "35e76a55-0f7a-52f5-870a-4316397a294c",
+    "module_id": "strategy",
+    "version": "1.0",
+    "status": "Approved",
+    "definition": {
+      "title": "Strategy Management",
+      "levels": [
+        "Initial",
+        "Managed",
+        "Defined",
+        "Advanced",
+        "Leader"
+      ],
+      "allowNA": false,
+      "stageRules": {
+        "bands": [],
+        "gates": []
+      },
+      "methodology": "Weighted numerical index. No approved stage thresholds or critical gates. No automatic targets.",
+      "domains": [
+        {
+          "id": "source-domain-1",
+          "title": "Corporate Strategy",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "source-domain-1-criterion-1",
+              "title": "Clearly Articulated by Management",
+              "weight": 0.25,
+              "questions": [
+                {
+                  "id": "source-domain-1-criterion-1-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Clearly Articulated by Management?"
+                }
+              ],
+              "descriptors": {
+                "1": "Articulated at a high-level only",
+                "2": "Inconsistent messaging across the organization",
+                "3": "Strategy is communicated to leadership only",
+                "4": "Clear articulation, aligned across areas",
+                "5": "Cascaded, understood at all levels, and drives unified execution"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Corporate Strategy'!B5:H5",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-1-criterion-2",
+              "title": "Understanding of Demand and Supply",
+              "weight": 0.2,
+              "questions": [
+                {
+                  "id": "source-domain-1-criterion-2-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Understanding of Demand and Supply?"
+                }
+              ],
+              "descriptors": {
+                "1": "No data-driven insight into market needs",
+                "2": "Basic understanding, not data-driven",
+                "3": "Structured but static demand-supply analysis, not updated regularly",
+                "4": "Robust demand-supply analytics periodically to support scenario modeling",
+                "5": "Dynamic, forward-looking demand and supply models, continuously updated and used to inform scenario planning"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Corporate Strategy'!B6:H6",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-1-criterion-3",
+              "title": "Supported by Strategic KPIs for Performance Management",
+              "weight": 0.2,
+              "questions": [
+                {
+                  "id": "source-domain-1-criterion-3-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Supported by Strategic KPIs for Performance Management?"
+                }
+              ],
+              "descriptors": {
+                "1": "No KPIs defined or tracked",
+                "2": "Basic KPIs exist but not aligned to strategy",
+                "3": "\tKPIs aligned to strategic goals; limited tracking or use",
+                "4": "KPIs cascaded, tracked, and reviewed regularly with improvement action plan in place",
+                "5": "Real-time KPIs drive performance management and accountability, with a performance improvement plan tracking actions and progress"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Corporate Strategy'!B7:H7",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-1-criterion-4",
+              "title": "Strategy Execution Roadmap",
+              "weight": 0.2,
+              "questions": [
+                {
+                  "id": "source-domain-1-criterion-4-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Strategy Execution Roadmap?"
+                }
+              ],
+              "descriptors": {
+                "1": "No execution roadmap exists",
+                "2": "Informal or draft roadmap without ownership or timelines",
+                "3": "Roadmap exists with defined initiatives; ownership and timelines are partial",
+                "4": "Roadmap includes initiatives, timelines, and functional accountability",
+                "5": "Fully time-bound, resourced roadmap with owners, milestones, and governance cadence"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Corporate Strategy'!B8:H8",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-1-criterion-5",
+              "title": "Documented & Approved",
+              "weight": 0.15,
+              "questions": [
+                {
+                  "id": "source-domain-1-criterion-5-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Documented & Approved?"
+                }
+              ],
+              "descriptors": {
+                "1": "Subsidiary relies on SEC-level business case only. No standalone strategy exists",
+                "2": "Basic strategic intent articulated but not formally documented or approved",
+                "3": "Approved corporate strategic plan exists, partially cascaded",
+                "4": "Corporate strategy is documented, aligned, approved, and updated periodically",
+                "5": "Fully defined and approved corporate strategy, regularly refreshed by management with board input"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Corporate Strategy'!B9:H9",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            }
+          ]
+        },
+        {
+          "id": "source-domain-2",
+          "title": "Business Planning",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "source-domain-2-criterion-1",
+              "title": "Performance Monitoring and Reporting",
+              "weight": 0.25,
+              "questions": [
+                {
+                  "id": "source-domain-2-criterion-1-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Performance Monitoring and Reporting?"
+                }
+              ],
+              "descriptors": {
+                "1": "No performance monitoring exists",
+                "2": "Basic monthly reporting, limited insights",
+                "3": "Standardized reports, used periodically by management",
+                "4": "Regular tracking and analysis of performance vs plan, including variance explanations and trend analysis",
+                "5": "Robust, proactive reporting linked to dashboards and KPIs; includes corrective actions with owners and timelines"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Business Planning'!B5:H5",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-2-criterion-2",
+              "title": "Budgeting, Forecasting, capital allocation & planning",
+              "weight": 0.25,
+              "questions": [
+                {
+                  "id": "source-domain-2-criterion-2-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Budgeting, Forecasting, capital allocation & planning?"
+                }
+              ],
+              "descriptors": {
+                "1": "No budgeting or forecasting exists",
+                "2": "Budgets exist, but forecasts are static and infrequently updated ",
+                "3": "Detailed budgets in place and frequently updated ",
+                "4": "Rolling forecasts and scenario-based budgeting in place",
+                "5": "Robust, continuous, dynamic, and predictive forecasting"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Business Planning'!B6:H6",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-2-criterion-3",
+              "title": "Alignment with Strategic Goals",
+              "weight": 0.2,
+              "questions": [
+                {
+                  "id": "source-domain-2-criterion-3-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Alignment with Strategic Goals?"
+                }
+              ],
+              "descriptors": {
+                "1": "No alignment between strategy and planning",
+                "2": "Loose references to strategic priorities in planning documents",
+                "3": "Business plan broadly aligned to strategy but lacks measurable linkages",
+                "4": "Clear alignment of business plan with strategic goals, KPIs, and initiatives",
+                "5": "Business plan directly translates strategic priorities into functional, financial, and operational plans with measurable outcomes"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Business Planning'!B7:H7",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-2-criterion-4",
+              "title": "Documented & Approved",
+              "weight": 0.15,
+              "questions": [
+                {
+                  "id": "source-domain-2-criterion-4-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Documented & Approved?"
+                }
+              ],
+              "descriptors": {
+                "1": "No business plan documented",
+                "2": "Fragmented business plan, not widely reviewed",
+                "3": "Documented and partially cascaded plans, approved by selected functions",
+                "4": "Comprehensive, aligned, and structured plans",
+                "5": "Comprehensive plans, fully aligned, institutionally approved"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Business Planning'!B8:H8",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            },
+            {
+              "id": "source-domain-2-criterion-5",
+              "title": "Data-Driven Decision-Making",
+              "weight": 0.15,
+              "questions": [
+                {
+                  "id": "source-domain-2-criterion-5-q1",
+                  "weight": 1,
+                  "text": "Which level best describes the current practice for Data-Driven Decision-Making?"
+                }
+              ],
+              "descriptors": {
+                "1": "No data used in planning",
+                "2": "Limited data, minimal analysis",
+                "3": "Financial data supports basic variance analysis",
+                "4": "Data analytics used to drive budgeting and investment prioritization",
+                "5": "Advanced analytics and real-time dashboards underpin decision-making"
+              },
+              "guidance": "Use the source descriptors and corroborating records. Record contextual limits and contradictions. SEC-specific references remain as supplied in the approved source; do not silently reinterpret them.",
+              "evidenceRequired": "Relevant approved records, implementation examples, and an interview or workshop record identifying scope and date.",
+              "source": {
+                "title": "Maturity Assessment Framework_v2_25052025.xlsx",
+                "location": "'Business Planning'!B9:H9",
+                "type": "Client-supplied framework",
+                "verifiedAt": "2026-09-27",
+                "hash": "3dd0dad02e3458ec4038d4113f5bdc28073a871ab6a9cd425da40f0aa1004789",
+                "derivation": "Verbatim descriptors; authored assessment prompt and evidence guidance"
+              },
+              "critical": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "198badac-ac52-5cc1-b3aa-8fd688b25a3f",
+    "module_id": "pmo",
+    "version": "draft-1",
+    "status": "Draft",
+    "definition": {
+      "title": "PMO, Portfolio & Program Management",
+      "levels": [
+        "Initial",
+        "Managed",
+        "Defined",
+        "Advanced",
+        "Leader"
+      ],
+      "allowNA": false,
+      "stageRules": {
+        "bands": [],
+        "gates": []
+      },
+      "limitations": "Draft coverage for review, not a complete certified framework. Source describes a 0–4 assessment scale; this proposed 1–5 adaptation requires explicit approval. Launch-control gates are not automatically maturity caps.",
+      "domains": [
+        {
+          "id": "pmo-domain-1",
+          "title": "Mandate and governance",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "pmo-1",
+              "title": "Mandate and service authority",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-1-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate mandate and service authority?"
+                }
+              ],
+              "descriptors": {
+                "1": "PMO authority and services are informal.",
+                "2": "A sponsor endorses a basic service list, with unresolved authority boundaries.",
+                "3": "An approved mandate defines customers, services, authority and escalation and is applied.",
+                "4": "Service reviews test mandate effectiveness and resolve authority conflicts.",
+                "5": "Demonstrated outcomes drive periodic redesign of services and authority."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "3.2 Phase 2; 7 PMO Service Catalogue",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "3.2 Phase 2; 7 PMO Service Catalogue",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "3.2 Phase 2; 7 PMO Service Catalogue",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "3.2 Phase 2; 7 PMO Service Catalogue",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "3.2 Phase 2; 7 PMO Service Catalogue",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Approved mandate, service catalogue and escalation decisions",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "3.2 Phase 2; 7 PMO Service Catalogue",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "pmo-2",
+              "title": "Decision rights and stage gates",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-2-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate decision rights and stage gates?"
+                }
+              ],
+              "descriptors": {
+                "1": "Approvals occur without defined rights or criteria.",
+                "2": "Some gate reviews occur but responsibilities and evidence vary.",
+                "3": "Documented decision rights and evidence-based gates operate consistently.",
+                "4": "Exceptions and gate effectiveness are measured and acted on.",
+                "5": "Gate design is improved using outcomes while preserving accountability."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "5 Governance Framework; 8 Project Lifecycle and Stage Gates",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "5 Governance Framework; 8 Project Lifecycle and Stage Gates",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "5 Governance Framework; 8 Project Lifecycle and Stage Gates",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "5 Governance Framework; 8 Project Lifecycle and Stage Gates",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "5 Governance Framework; 8 Project Lifecycle and Stage Gates",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Delegation matrix, gate criteria, decision logs",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "5 Governance Framework; 8 Project Lifecycle and Stage Gates",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            }
+          ]
+        },
+        {
+          "id": "pmo-domain-2",
+          "title": "Portfolio and programs",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "pmo-3",
+              "title": "Portfolio selection and balancing",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-3-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate portfolio selection and balancing?"
+                }
+              ],
+              "descriptors": {
+                "1": "Projects enter the portfolio without consistent selection.",
+                "2": "Basic prioritization exists without reliable capacity checks.",
+                "3": "Documented criteria, evidence and capacity inform portfolio decisions.",
+                "4": "Trade-offs and portfolio performance are reviewed using reliable data.",
+                "5": "Selection and balancing are refined from realized value and scenario evidence."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "10 Portfolio Prioritization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "10 Portfolio Prioritization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "10 Portfolio Prioritization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "10 Portfolio Prioritization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "10 Portfolio Prioritization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Demand register, selection records and capacity scenarios",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "10 Portfolio Prioritization",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "pmo-4",
+              "title": "Program dependencies and integration",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-4-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate program dependencies and integration?"
+                }
+              ],
+              "descriptors": {
+                "1": "Cross-project dependencies are unmanaged.",
+                "2": "Some dependencies are logged with inconsistent ownership.",
+                "3": "Program dependencies have owners, commitments and escalation routes.",
+                "4": "Dependency performance informs integrated forecasts and interventions.",
+                "5": "Recurring dependency failures drive verified improvements to integration."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-014 Dependency Management",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-014 Dependency Management",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-014 Dependency Management",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-014 Dependency Management",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-014 Dependency Management",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Integrated program plans, dependency owners and escalation records",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "11 PMO Process Architecture; policy P-014 Dependency Management",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "pmo-5",
+              "title": "Benefits ownership and realization",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-5-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate benefits ownership and realization?"
+                }
+              ],
+              "descriptors": {
+                "1": "Benefits are stated without ownership or measurement.",
+                "2": "Some benefits have owners but baselines and reviews are incomplete.",
+                "3": "Benefit profiles define owners, baselines, measures and review arrangements.",
+                "4": "Reviews compare realized benefits with plans and assign corrective action.",
+                "5": "Lessons from realized benefits improve future investment and delivery decisions."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-016 Benefits Realization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-016 Benefits Realization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-016 Benefits Realization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-016 Benefits Realization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-016 Benefits Realization",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Benefit profiles, baselines, owners and realization reviews",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "11 PMO Process Architecture; policy P-016 Benefits Realization",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            }
+          ]
+        },
+        {
+          "id": "pmo-domain-3",
+          "title": "Delivery and assurance",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "pmo-6",
+              "title": "Integrated delivery baselines",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-6-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate integrated delivery baselines?"
+                }
+              ],
+              "descriptors": {
+                "1": "Scope, cost and schedule are disconnected or absent.",
+                "2": "Basic plans exist but change and forecast disciplines vary.",
+                "3": "Approved integrated baselines are maintained through controlled updates.",
+                "4": "Forecasts and variances trigger documented recovery decisions.",
+                "5": "Measured planning and delivery outcomes improve estimation and controls."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-007 to P-010",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-007 to P-010",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-007 to P-010",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-007 to P-010",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-007 to P-010",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Scope, schedule and cost baselines with update records",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "11 PMO Process Architecture; policies P-007 to P-010",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "pmo-7",
+              "title": "Risk, issue and change control",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-7-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate risk, issue and change control?"
+                }
+              ],
+              "descriptors": {
+                "1": "Risks, issues and changes are handled informally.",
+                "2": "Registers exist but ownership or escalation is inconsistent.",
+                "3": "Defined owners, thresholds, impact assessment and approvals operate.",
+                "4": "Exposure, aging and change trends drive management intervention.",
+                "5": "Outcome analysis improves prevention, escalation and change decisions."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-011 to P-013",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-011 to P-013",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-011 to P-013",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-011 to P-013",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policies P-011 to P-013",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Risk register, issue log, approved change decisions",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "11 PMO Process Architecture; policies P-011 to P-013",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "pmo-8",
+              "title": "Assurance and acceptance",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-8-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate assurance and acceptance?"
+                }
+              ],
+              "descriptors": {
+                "1": "Delivery quality is accepted without explicit checks.",
+                "2": "Checks occur inconsistently and findings lack reliable follow-up.",
+                "3": "Defined assurance and acceptance criteria operate with documented findings.",
+                "4": "Independent reviews track closure and recurring quality weaknesses.",
+                "5": "Quality outcomes guide demonstrable improvement to assurance and acceptance."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-015 Quality and Assurance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-015 Quality and Assurance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-015 Quality and Assurance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-015 Quality and Assurance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "11 PMO Process Architecture; policy P-015 Quality and Assurance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Assurance findings, closure evidence and acceptance records",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "11 PMO Process Architecture; policy P-015 Quality and Assurance",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            }
+          ]
+        },
+        {
+          "id": "pmo-domain-4",
+          "title": "People, data and improvement",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "pmo-9",
+              "title": "Data and reporting reliability",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-9-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate data and reporting reliability?"
+                }
+              ],
+              "descriptors": {
+                "1": "Reports rely on inconsistent definitions and unverifiable data.",
+                "2": "Basic reporting is repeated with manual unresolved reconciliation.",
+                "3": "Defined owners and validation controls produce consistent reports.",
+                "4": "Quality and timeliness measures trigger remediation and decision follow-up.",
+                "5": "Reliable outcome evidence guides automation and reporting simplification."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "13 PMO KPI Framework; 14 PMIS Requirements and Options",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "13 PMO KPI Framework; 14 PMIS Requirements and Options",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "13 PMO KPI Framework; 14 PMIS Requirements and Options",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "13 PMO KPI Framework; 14 PMIS Requirements and Options",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "13 PMO KPI Framework; 14 PMIS Requirements and Options",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Data definitions, validation checks and reporting decisions",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "13 PMO KPI Framework; 14 PMIS Requirements and Options",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "pmo-10",
+              "title": "Competence and continuous improvement",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "pmo-10-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate competence and continuous improvement?"
+                }
+              ],
+              "descriptors": {
+                "1": "Capabilities and lessons depend on individuals.",
+                "2": "Training and lessons are collected but rarely applied systematically.",
+                "3": "Role-based development and a managed improvement backlog operate.",
+                "4": "Practice adoption and improvement results are reviewed against needs.",
+                "5": "Verified learning outcomes continuously refine capability and methods."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "16 Training and Competency; 21 One-Year Maturity Roadmap",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "16 Training and Competency; 21 One-Year Maturity Roadmap",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "16 Training and Competency; 21 One-Year Maturity Roadmap",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "16 Training and Competency; 21 One-Year Maturity Roadmap",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "PMO Establishment Playbook (July 2026)",
+                  "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                  "location": "16 Training and Competency; 21 One-Year Maturity Roadmap",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Role competencies, applied training, lessons and improvement reviews",
+              "source": {
+                "title": "PMO Establishment Playbook (July 2026)",
+                "url": "https://drive.google.com/file/d/158w-d7u-UXTCgp58kUB-Qkq8Hrbvkr_k/view",
+                "location": "16 Training and Competency; 21 One-Year Maturity Roadmap",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "e2724967-b4c3-5a06-92fe-18e6002a20b0",
+    "module_id": "kpi",
+    "version": "draft-1",
+    "status": "Draft",
+    "definition": {
+      "title": "Performance Management & KPI",
+      "levels": [
+        "Initial",
+        "Managed",
+        "Defined",
+        "Advanced",
+        "Leader"
+      ],
+      "allowNA": false,
+      "stageRules": {
+        "bands": [],
+        "gates": []
+      },
+      "limitations": "Draft coverage for review, not a complete certified framework. Checklist evaluates KPI quality, not the complete performance management lifecycle. This draft requires coverage review before approval.",
+      "domains": [
+        {
+          "id": "kpi-domain-1",
+          "title": "Design and alignment",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "kpi-1",
+              "title": "Clarity",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-1-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate clarity?"
+                }
+              ],
+              "descriptors": {
+                "1": "Metric names obscure what is measured.",
+                "2": "Definitions exist for some metrics but interpretation varies.",
+                "3": "Each KPI has an unambiguous definition and documented calculation.",
+                "4": "Reviews detect and correct interpretation and formula inconsistencies.",
+                "5": "Use evidence continually improves definition clarity without breaking history."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Clarity",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Clarity",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Clarity",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Clarity",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Clarity",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "KPI dictionary and stakeholder interpretation checks",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Clarity",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "kpi-2",
+              "title": "Relevance",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-2-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate relevance?"
+                }
+              ],
+              "descriptors": {
+                "1": "KPIs have no demonstrated link to objectives.",
+                "2": "Some KPIs reference goals without decision use.",
+                "3": "KPIs are linked to relevant objectives and decision needs.",
+                "4": "Reviews assess usefulness and retire measures that do not support decisions.",
+                "5": "Changing strategy and evaluated decision outcomes drive controlled KPI redesign."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Relevance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Relevance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Relevance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Relevance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Relevance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Objective-to-KPI mappings and decision records",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Relevance",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "kpi-3",
+              "title": "Balance",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-3-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate balance?"
+                }
+              ],
+              "descriptors": {
+                "1": "The indicator set overlooks results or outcomes.",
+                "2": "Different indicator types exist with major unexplained gaps.",
+                "3": "The indicator set deliberately covers effort, delivery results and outcomes.",
+                "4": "Reviews identify imbalances and their effects on decisions.",
+                "5": "Outcome evidence drives sustained refinement of the indicator mix."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Balance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Balance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Balance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Balance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Balance",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Indicator portfolio with input, output and outcome coverage",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Balance",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            }
+          ]
+        },
+        {
+          "id": "kpi-domain-2",
+          "title": "Data and comparability",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "kpi-4",
+              "title": "Comparability",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-4-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate comparability?"
+                }
+              ],
+              "descriptors": {
+                "1": "Changing units or rules prevent comparison.",
+                "2": "Some metrics have stable rules but trends are inconsistent.",
+                "3": "Units and calculation rules support valid comparisons over time.",
+                "4": "Definition changes and comparability limits are controlled and disclosed.",
+                "5": "Comparison quality is continually improved using documented analysis."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Comparability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Comparability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Comparability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Comparability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Comparability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Units, definitions, restatements and trend records",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Comparability",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "kpi-5",
+              "title": "Data availability",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-5-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate data availability?"
+                }
+              ],
+              "descriptors": {
+                "1": "Required KPI data cannot be obtained reliably.",
+                "2": "Data is obtained irregularly with unclear reliability.",
+                "3": "Reliable named sources and repeatable collection support each KPI.",
+                "4": "Quality checks identify missing or inconsistent data and drive correction.",
+                "5": "Measured data problems drive sustained improvements to source reliability."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Data Availability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Data Availability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Data Availability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Data Availability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Data Availability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Named data sources, collection records and reconciliations",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Data Availability",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "kpi-6",
+              "title": "Timeliness",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-6-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate timeliness?"
+                }
+              ],
+              "descriptors": {
+                "1": "KPI data arrives too late for its intended decisions.",
+                "2": "Reporting dates exist but delays are frequent and unexplained.",
+                "3": "Collection and reporting schedules align with decision timing.",
+                "4": "Delay causes and service performance are reviewed and corrected.",
+                "5": "Evidence of decision needs guides sustained improvements to reporting timing."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Timeliness",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Timeliness",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Timeliness",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Timeliness",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Timeliness",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Reporting calendar and timestamped delivery records",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Timeliness",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            }
+          ]
+        },
+        {
+          "id": "kpi-domain-3",
+          "title": "Accountability and improvement",
+          "weight": 1,
+          "criteria": [
+            {
+              "id": "kpi-7",
+              "title": "Ownership",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-7-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate ownership?"
+                }
+              ],
+              "descriptors": {
+                "1": "No one is accountable for updating and using KPIs.",
+                "2": "Informal owners exist but responsibilities remain incomplete.",
+                "3": "Named owners maintain KPIs and are accountable for their use.",
+                "4": "Reviews address ownership gaps and overdue decisions or updates.",
+                "5": "Accountability arrangements evolve using evidence of performance improvement."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Ownership",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Ownership",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Ownership",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Ownership",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Ownership",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "KPI ownership register and accountability records",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Ownership",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            },
+            {
+              "id": "kpi-8",
+              "title": "Actionability",
+              "weight": 1,
+              "status": "Draft",
+              "questions": [
+                {
+                  "id": "kpi-8-q1",
+                  "weight": 1,
+                  "text": "How consistently does the organization demonstrate actionability?"
+                }
+              ],
+              "descriptors": {
+                "1": "Metric changes lead to no defined response.",
+                "2": "Occasional actions occur without consistent follow-up.",
+                "3": "Performance reviews translate relevant changes into owned actions.",
+                "4": "Action completion and effects are assessed and escalated when necessary.",
+                "5": "Verified intervention outcomes continually improve performance decisions."
+              },
+              "descriptorSources": {
+                "1": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Actionability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "2": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Actionability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "3": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Actionability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "4": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Actionability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                },
+                "5": {
+                  "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                  "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                  "location": "Actionability",
+                  "type": "Internal reference library",
+                  "verifiedAt": "2026-09-27",
+                  "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+                }
+              },
+              "guidance": "Review representative evidence and record limitations. This rubric is Draft and cannot be used for live assessments.",
+              "evidenceRequired": "Performance review decisions, corrective actions and results",
+              "source": {
+                "title": "KPI Quality Evaluation – 8-Point Assessment Checklist",
+                "url": "https://docs.google.com/spreadsheets/d/1cRjMJZh-WW5GCo6bqfd0gyczInBAjbLIMZKlJc75ZMo/edit",
+                "location": "Actionability",
+                "type": "Internal reference library",
+                "verifiedAt": "2026-09-27",
+                "derivation": "Authored draft rubric informed by inspected source concepts; not a verbatim or officially certified maturity model"
+              },
+              "critical": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
