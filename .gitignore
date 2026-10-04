@@ -5,3 +5,4 @@ node_modules/
 .local/
 test-results/
 *.log
+public/assets/fonts/*.ttf
